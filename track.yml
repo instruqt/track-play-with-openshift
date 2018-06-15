@@ -1,0 +1,54 @@
+type: track
+slug: play-with-openshift
+icon: https://storage.googleapis.com/instruqt-frontend/img/tracks/openshift.png
+title: Play with OpenShift
+teaser: Learn OpenShift in your own sandbox
+description: |-
+  Learn OpenShift in your own sandbox
+  ===================================
+
+  OpenShift, built on Kubernetes, is a container management platform. With
+  OpenShift, you can build, deploy and run containers in a production-grade
+  environment. It includes a continuous integration server, a smart routing
+  layer and a container registry. All accessible using a user-friendly user
+  interface.
+
+  ![OpenShift Architecture](https://www.openshift.com/images/marketecture.svg)
+
+  Track contents
+  --------------
+
+  This track contains an OpenShift 3.7 sandbox environment. It doesn't contain
+  any challenges, please come back later for more OpenShift tracks!
+
+  For more information, go to the [OpenShift website](https://www.openshift.com).
+tags:
+- sandbox
+- openshift
+challenges:
+- slug: sandbox
+  credits: 10
+  timelimit: 1800
+  title: Sandbox
+  teaser: Play around in your OpenShift sandbox
+  notes:
+  - type: text
+    title: Creating infrastructure
+    contents: Please wait while we create your OpenShift cluster
+  assignment: |-
+    Login using **admin**/**admin**. Try to create and deploy an application!
+
+    The official documentation is available [here](https://docs.openshift.com/).
+  difficulty: basic
+  unlocks: []
+  tabs:
+  - type: service
+    title: Openshift
+    hostname: openshift
+    port: 8443
+  - type: terminal
+    title: Shell
+    hostname: openshift
+developers:
+- bas@instruqt.com
+published: true

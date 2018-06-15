@@ -1,0 +1,11 @@
+template: virtualmachines
+configuration:
+  PoolSize: 0
+  VirtualMachines:
+  - Image: openshift-3-9
+    MachineType: n1-standard-2
+    Name: openshift
+    Ports:
+    - 80
+    - 8443
+    Shell: /bin/bash
